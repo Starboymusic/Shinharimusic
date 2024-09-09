@@ -66,7 +66,7 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         
-        [ InlineKeyboardButton(text="📱Mᴏᴠɪᴇs+Sᴇʀɪᴇs+Aɴɪᴍᴇ 🎬", url=f"https://t.me/okflix_ottbot?start=start")],
+        [ InlineKeyboardButton(text="「𝐒𝐭𝐚𝐫𝐁𝐨𝐲 ™ ⋊ 𝐌ᴜꜱɪᴄ▷」", url=f"https://t.me/StarBoyMusicBoT?start")],
     ]
     return buttons
 
@@ -80,7 +80,7 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
             
-        [ InlineKeyboardButton(text="📱Mᴏᴠɪᴇs+Sᴇʀɪᴇs+Aɴɪᴍᴇ 🎬", url=f"https://t.me/okflix_ottbot?start=start")],
+        [ InlineKeyboardButton(text="「𝐒𝐭𝐚𝐫𝐁𝐨𝐲 ™ ⋊ 𝐌ᴜꜱɪᴄ▷」", url=f"https://t.me/StarBoyMusicBoT?start")],
     ]
     return buttons
 
